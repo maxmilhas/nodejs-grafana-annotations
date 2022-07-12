@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/maxmilhas-org/nodejs-grafana-annotations/compare/v0.1.1...v0.1.2) (2022-07-12)
+
+
+### Bug Fixes
+
+* bettering new version annotation ([9739cb2](https://github.com/maxmilhas-org/nodejs-grafana-annotations/commit/9739cb2efabd94e5c0283451123e4f566de67dc8))
+
 ## [0.1.1](https://github.com/maxmilhas-org/nodejs-grafana-annotations/compare/v0.1.0...v0.1.1) (2022-07-12)
 
 
