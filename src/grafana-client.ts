@@ -126,15 +126,17 @@ export class GrafanaClient {
 		).map(transformRawAlert);
 	}
 
+	async notifyNewVersionAsync() {
+		const alert = {
+			tags: ['NewVersion'],
+			text: `New version online: ${this.config.applicationName}@${this.config.applicationVersion}`,
+		};
+		if (!(await this.find(alert).any())) {
+			await this.notify(alert);
+		}
+	}
+
 	notifyNewVersion() {
-		dontWait(async () => {
-			const alert = {
-				tags: ['NewVersion'],
-				text: `New version online: ${this.config.applicationName}@${this.config.applicationVersion}`,
-			};
-			if (!(await this.find(alert).any())) {
-				await this.notify(alert);
-			}
-		});
+		dontWait(this.notifyNewVersionAsync.bind(this));
 	}
 }
