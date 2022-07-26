@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/maxmilhas-org/nodejs-grafana-annotations/compare/v0.1.2...v0.1.3) (2022-07-26)
+
+
+### Bug Fixes
+
+* exposing notifyNewVersionAsync method ([110ff29](https://github.com/maxmilhas-org/nodejs-grafana-annotations/commit/110ff295a7240a3ea778c762ead7c84f23ca058e))
+
 ## [0.1.2](https://github.com/maxmilhas-org/nodejs-grafana-annotations/compare/v0.1.1...v0.1.2) (2022-07-12)
 
 
