@@ -83,7 +83,7 @@ describe(GrafanaClient.name, () => {
 				'api/annotations',
 				{
 					text: 'some text',
-					tags: ['app name', 'app version'],
+					tags: ['app name', 'vapp version'],
 					time: now,
 					timeEnd: undefined,
 				},
@@ -101,7 +101,7 @@ describe(GrafanaClient.name, () => {
 				'api/annotations',
 				{
 					text: 'some text',
-					tags: ['app name', 'app version'],
+					tags: ['app name', 'vapp version'],
 					time: 12345,
 					timeEnd: undefined,
 				},
@@ -121,7 +121,7 @@ describe(GrafanaClient.name, () => {
 				'api/annotations',
 				{
 					text: 'some text',
-					tags: ['def1', 'def2', 'def3', 'app name', 'app version'],
+					tags: ['def1', 'def2', 'def3', 'app name', 'vapp version'],
 					time: 12345,
 					timeEnd: undefined,
 				},
@@ -149,7 +149,7 @@ describe(GrafanaClient.name, () => {
 						'def2',
 						'def3',
 						'app name',
-						'app version',
+						'vapp version',
 					],
 					time: 12345,
 					timeEnd: undefined,
@@ -168,7 +168,7 @@ describe(GrafanaClient.name, () => {
 				'api/annotations',
 				{
 					text: 'some text',
-					tags: ['app name', 'app version'],
+					tags: ['app name', 'vapp version'],
 					time: now,
 					timeEnd: 12345,
 				},
@@ -244,7 +244,7 @@ describe(GrafanaClient.name, () => {
 				'api/annotations',
 				{
 					text: '123',
-					tags: ['app name', 'app version'],
+					tags: ['app name', 'vapp version'],
 				},
 			]);
 			expect(result).toEqual(expectedResult);
@@ -259,7 +259,7 @@ describe(GrafanaClient.name, () => {
 				'api/annotations',
 				{
 					text: '123',
-					tags: ['def1', 'def2', 'def3', 'app name', 'app version'],
+					tags: ['def1', 'def2', 'def3', 'app name', 'vapp version'],
 				},
 			]);
 			expect(result).toEqual(expectedResult);
@@ -273,7 +273,7 @@ describe(GrafanaClient.name, () => {
 				'api/annotations',
 				{
 					text: '123',
-					tags: ['my tag', 'app name', 'app version'],
+					tags: ['my tag', 'app name', 'vapp version'],
 				},
 			]);
 			expect(result).toEqual(expectedResult);

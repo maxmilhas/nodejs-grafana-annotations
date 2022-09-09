@@ -86,7 +86,7 @@ export class GrafanaClient {
 		return fluent(alert.tags || [])
 			.concat(this.config.defaultTags || [])
 			.append(this.config.applicationName)
-			.append(this.config.applicationVersion)
+			.append(`v${this.config.applicationVersion}`)
 			.toArray();
 	}
 

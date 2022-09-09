@@ -68,11 +68,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxmilhas-org/nodejs-grafana-annotations.git"
+    "url": "https://github.com/maxmilhas/nodejs-grafana-annotations.git"
   },
-  "homepage": "https://github.com/maxmilhas-org/nodejs-grafana-annotations#readme",
+  "homepage": "https://github.com/maxmilhas/nodejs-grafana-annotations#readme",
   "bugs": {
-    "url": "https://github.com/maxmilhas-org/nodejs-grafana-annotations/issues"
+    "url": "https://github.com/maxmilhas/nodejs-grafana-annotations/issues"
   },
   "keywords": [],
   "license": "MIT",
