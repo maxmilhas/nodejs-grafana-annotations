@@ -1,3 +1,10 @@
+## [0.1.5](https://github.com/maxmilhas/nodejs-grafana-annotations/compare/v0.1.4...v0.1.5) (2022-09-09)
+
+
+### Bug Fixes
+
+* fixing publishing [AIRSK-626] ([15634d8](https://github.com/maxmilhas/nodejs-grafana-annotations/commit/15634d89bfd559e73efd95a9af4a00269efbffe8))
+
 ## [0.1.4](https://github.com/maxmilhas/nodejs-grafana-annotations/compare/v0.1.3...v0.1.4) (2022-09-09)
 
 
